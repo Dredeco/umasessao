@@ -19,10 +19,10 @@ export default function Home() {
               <span className='name'>Juliana Lobatto</span>
               <span className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris magna libero, convallis et ante vel, vehicula elementum velit. Nunc est nisi, ornare vitae justo at, lobortis dapibus tortor. Vestibulum nec viverra sapien. Nunc sed dapibus mauris. Etiam commodo at eros ut lacinia. Sed imperdiet nec eros ut ultrices. Pellentesque sagittis neque nec magna pharetra tempor.</span>
               <div className='links'>
-                <a href='#'><FaFacebook /></a>
-                <a href='#'><FaInstagram /></a>
-                <a href='#'><FaTwitter /></a>
-                <a href='#'><FaLinkedin /></a>
+                <a target='_blank' href='https://facebook.com'><FaFacebook /></a>
+                <a target='_blank' href='https://instagram.com'><FaInstagram /></a>
+                <a target='_blank' href='https://twitter.com'><FaTwitter /></a>
+                <a target='_blank' href='https://linkedin.com'><FaLinkedin /></a>
               </div>
             </div>
             <Image 
