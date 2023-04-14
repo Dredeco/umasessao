@@ -1,0 +1,45 @@
+.main
+    background-color: #bea0d1
+    height: 100vh
+    padding: 2rem 0
+    .container
+        display: flex
+        justify-content: center
+        height: 100%
+        align-items: center        
+        .wrapper
+            display: flex
+            flex-wrap: wrap
+            flex-direction: column-reverse
+            align-items: center
+            justify-content: center
+            gap: 2rem
+            .about-text
+                display: flex
+                flex-direction: column
+                .name
+                    font-weight: 700
+                    font-size: 2rem
+                .description
+                    font-weight: 500
+                    margin: 1rem 0
+                .links
+                    display: flex
+                    gap: 1rem
+                    justify-content: center
+                    a
+                        text-decoration: none
+                        svg
+                            font-size: 2rem
+                            color: #9d56c9
+
+            img
+                border-radius: 50%
+                border: 10px solid #9d56c9
+
+@media screen and ( min-width: 768px  )
+    .wrapper
+        flex-direction: row !important
+        .about-text
+            width: 50%
+    
